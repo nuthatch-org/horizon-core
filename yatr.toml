@@ -20,23 +20,23 @@ no_cache = true
 [tasks.fmt-check]
 desc = "Fail if the tree is unformatted"
 run = ["cargo fmt --all -- --check"]
-sources = ["**/*.rs", "rustfmt.toml"]
+sources = ["**/*.rs"]
 
 [tasks.lint]
 desc = "Clippy with warnings denied"
 run = ["cargo clippy --all-targets -- -D warnings"]
-sources = ["**/*.rs", "**/Cargo.toml", "Cargo.lock"]
+sources = ["**/*.rs", "**/Cargo.toml"]
 
 [tasks.test]
 desc = "Run the test suite"
 run = ["cargo test"]
-sources = ["**/*.rs", "**/Cargo.toml", "Cargo.lock"]
+sources = ["**/*.rs", "**/Cargo.toml"]
 watch = ["**/*.rs"]
 
 [tasks.build]
 desc = "Build in release mode"
 run = ["cargo build --release"]
-sources = ["**/*.rs", "**/Cargo.toml", "Cargo.lock"]
+sources = ["**/*.rs", "**/Cargo.toml"]
 
 [tasks.doc]
 desc = "Build the API docs"
