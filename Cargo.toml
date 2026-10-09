@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 license = "Apache-2.0"
 description = "Reusable building blocks for The Graph Horizon data services: TAP v2 (GraphTally) receipt validation, RAV aggregation, on-chain collection, persistence, and a generic TAP-gated reverse proxy."
-repository = "https://github.com/nightswatchhq/horizon-core"
+repository = "https://github.com/nuthatch-org/horizon-core"
 
 [dependencies]
 # Web
