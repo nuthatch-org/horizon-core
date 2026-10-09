@@ -51,7 +51,7 @@ let app = horizon_core::standard_router(state.clone()).route("/custom", get(my_h
 
 ## First consumer
 
-[FHSCE](https://github.com/nightswatchhq/FHSCE) — the File Hosting Service, Community Edition — is the first
+[FHSCE](https://github.com/nuthatch-org/FHSCE) — the File Hosting Service, Community Edition — is the first
 data service built on `horizon-core`.
 
 ## License
